@@ -17,6 +17,12 @@
 //    hariIni = "selasa"
 // }else if(hari == 3){
 //     hariIni = "rabu"
+// }else if(hari == 4){
+//     hariIni = "kamis"
+// }else if(hari == 5){
+//     hariIni = "jumat"
+// }else if(hari == 6){
+//     hariIni = "sabtu"
 // }else{
 //     hariIni = "hari lain"
 // }
@@ -62,10 +68,10 @@
 //     alert(`anda goblok, bulan ini adalah ${bulanIni}`)
 // }
 
-document.title = 'Alief Albayu'
-const body = document.body
-const btn1 = document.getElementById('btn1')
-const btn2 = document.getElementById('btn2')
+// document.title = 'Alief Albayu'
+// const body = document.body
+// const btn1 = document.getElementById('btn1')
+// const btn2 = document.getElementById('btn2')
 
 // const defaultText = 'KLIK SAYA 1'
 // btn1.textContent = defaultText
@@ -91,30 +97,30 @@ const btn2 = document.getElementById('btn2')
 //     btn1.textContent = defaultText
 // }
 
-const defaultText = 'KLIK SAYA 1'
-btn2.textContent = defaultText
+// const defaultText = 'KLIK SAYA 1'
+// btn2.textContent = defaultText
 
-btn2.style.border = 'none'
-btn2.style.padding = '5px'
-btn2.style.fontSize = '20px'
-btn2.style.background = 'salmon'
+// btn2.style.border = 'none'
+// btn2.style.padding = '5px'
+// btn2.style.fontSize = '20px'
+// btn2.style.background = 'salmon'
 
-function clickButton2() {
-    btn2.style.background = 'red'
-    const newText = document.createElement ('p')
-    newText.textContent = 'Halo Bay'
-    body.append(newText)
-}
+// function clickButton2() {
+//     btn2.style.background = 'red'
+//     const newText = document.createElement ('p')
+//     newText.textContent = 'Halo Bay'
+//     body.append(newText)
+// }
 
-function ubahText2() {
-    btn2.textContent = 'SUDAH DI KLIK'
-    const newText = document.createElement ('p')
-    newText.textContent = 'halo pre'
-    body.append(newText)
-}
+// function ubahText2() {
+//     btn2.textContent = 'SUDAH DI KLIK'
+//     const newText = document.createElement ('p')
+//     newText.textContent = 'halo pre'
+//     body.append(newText)
+// }
 
-function backText2() {
-    const changeBg = document.querySelector('p')
-    changeBg.style.color = 'blue'
-    console.log("perubahan ke:")
-}
+// function backText2() {
+//     const changeBg = document.querySelector('p')
+//     changeBg.style.color = 'blue'
+//     console.log("perubahan ke:")
+// }
